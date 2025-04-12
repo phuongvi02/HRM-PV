@@ -1,0 +1,54 @@
+[15-Mar-2025 17:47:57 Europe/Berlin] SessionManager initialized at 2025-03-15 17:47:57
+[15-Mar-2025 17:47:57 Europe/Berlin] Session open called with savePath: C:\xampp\tmp, sessionName: PHPSESSID at 2025-03-15 17:47:57
+[15-Mar-2025 17:47:57 Europe/Berlin] Reading session: session_user_12 at 2025-03-15 17:47:57
+[15-Mar-2025 17:47:57 Europe/Berlin] Read data for session_user_12: 
+[15-Mar-2025 17:47:57 Europe/Berlin] Writing session: session_user_12, Data length: 0 at 2025-03-15 17:47:57
+[15-Mar-2025 17:47:57 Europe/Berlin] Session close called at 2025-03-15 17:47:57
+[15-Mar-2025 17:47:57 Europe/Berlin] Session check failed: Array
+(
+)
+
+[15-Mar-2025 17:48:41 Europe/Berlin] SessionManager initialized at 2025-03-15 17:48:41
+[15-Mar-2025 17:48:41 Europe/Berlin] Session open called with savePath: C:\xampp\tmp, sessionName: PHPSESSID at 2025-03-15 17:48:41
+[15-Mar-2025 17:48:41 Europe/Berlin] Reading session: session_user_12 at 2025-03-15 17:48:41
+[15-Mar-2025 17:48:41 Europe/Berlin] Read data for session_user_12: 
+[15-Mar-2025 17:48:41 Europe/Berlin] Writing session: session_user_12, Data length: 0 at 2025-03-15 17:48:41
+[15-Mar-2025 17:48:41 Europe/Berlin] Session close called at 2025-03-15 17:48:41
+[15-Mar-2025 17:48:41 Europe/Berlin] Session check failed: Array
+(
+)
+
+[15-Mar-2025 17:53:40 Europe/Berlin] SessionManager initialized at 2025-03-15 17:53:40
+[15-Mar-2025 17:53:40 Europe/Berlin] Session open called with savePath: C:\xampp\tmp, sessionName: PHPSESSID at 2025-03-15 17:53:40
+[15-Mar-2025 17:53:40 Europe/Berlin] Reading session: session_user_12 at 2025-03-15 17:53:40
+[15-Mar-2025 17:53:40 Europe/Berlin] Read data for session_user_12: 
+[15-Mar-2025 17:53:40 Europe/Berlin] Writing session: session_user_12, Data:  at 2025-03-15 17:53:40
+[15-Mar-2025 17:53:40 Europe/Berlin] Session close called at 2025-03-15 17:53:40
+[15-Mar-2025 17:53:40 Europe/Berlin] Session check failed: Array
+(
+)
+
+[15-Mar-2025 18:17:03 Europe/Berlin] SessionManager initialized at 2025-03-15 18:17:03
+[15-Mar-2025 18:17:03 Europe/Berlin] Session open called with savePath: C:\xampp\tmp, sessionName: hrm_session at 2025-03-15 18:17:03
+[15-Mar-2025 18:17:03 Europe/Berlin] Reading session: session_user_12 at 2025-03-15 18:17:03
+[15-Mar-2025 18:17:03 Europe/Berlin] Session session_user_12 not found or expired
+[15-Mar-2025 18:17:03 Europe/Berlin] Writing session: session_user_12, Data length: 0 at 2025-03-15 18:17:03
+[15-Mar-2025 18:17:03 Europe/Berlin] Error writing session session_user_12: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'field list'
+[15-Mar-2025 18:17:03 Europe/Berlin] PHP Warning:  session_write_close(): Failed to write session data using user defined save handler. (session.save_path: C:\xampp\tmp) in C:\xampp\htdocs\HRMpv\views\ketoan\receive_from_hr.php on line 26
+[15-Mar-2025 18:17:03 Europe/Berlin] Session close called at 2025-03-15 18:17:03
+[15-Mar-2025 18:17:03 Europe/Berlin] Session check failed: Array
+(
+)
+
+[16-Mar-2025 02:06:42 Europe/Berlin] SessionManager initialized at 2025-03-16 02:06:42
+[16-Mar-2025 02:06:42 Europe/Berlin] Session open called with savePath: C:\xampp\tmp, sessionName: hrm_session at 2025-03-16 02:06:42
+[16-Mar-2025 02:06:42 Europe/Berlin] Reading session: session_user_12 at 2025-03-16 02:06:42
+[16-Mar-2025 02:06:42 Europe/Berlin] Session session_user_12 not found or expired
+[16-Mar-2025 02:06:42 Europe/Berlin] Writing session: session_user_12, Data length: 0 at 2025-03-16 02:06:42
+[16-Mar-2025 02:06:42 Europe/Berlin] Error writing session session_user_12: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user_id' in 'field list'
+[16-Mar-2025 02:06:42 Europe/Berlin] PHP Warning:  session_write_close(): Failed to write session data using user defined save handler. (session.save_path: C:\xampp\tmp) in C:\xampp\htdocs\HRMpv\views\ketoan\receive_from_hr.php on line 26
+[16-Mar-2025 02:06:42 Europe/Berlin] Session close called at 2025-03-16 02:06:42
+[16-Mar-2025 02:06:42 Europe/Berlin] Session check failed: Array
+(
+)
+

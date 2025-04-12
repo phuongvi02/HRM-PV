@@ -1,0 +1,6 @@
+[24-Mar-2025 11:57:31 Europe/Berlin] PHP Notice:  ob_end_flush(): Failed to delete and flush buffer. No buffer to delete or flush in C:\xampp\htdocs\HRMpv\views\HR\list_employee.php on line 1059
+[25-Mar-2025 13:32:56 Europe/Berlin] PHP Notice:  ob_end_flush(): Failed to delete and flush buffer. No buffer to delete or flush in C:\xampp\htdocs\HRMpv\views\HR\list_employee.php on line 1059
+[26-Mar-2025 18:22:57 Europe/Berlin] PHP Notice:  ob_end_flush(): Failed to delete and flush buffer. No buffer to delete or flush in C:\xampp\htdocs\HRMpv\views\HR\list_employee.php on line 1059
+[27-Mar-2025 13:56:38 Europe/Berlin] PHP Notice:  ob_end_flush(): Failed to delete and flush buffer. No buffer to delete or flush in C:\xampp\htdocs\HRMpv\views\HR\list_employee.php on line 1059
+[27-Mar-2025 14:27:57 Europe/Berlin] PHP Notice:  ob_end_flush(): Failed to delete and flush buffer. No buffer to delete or flush in C:\xampp\htdocs\HRMpv\views\HR\list_employee.php on line 1059
+[27-Mar-2025 14:34:18 Europe/Berlin] PHP Notice:  ob_end_flush(): Failed to delete and flush buffer. No buffer to delete or flush in C:\xampp\htdocs\HRMpv\views\HR\list_employee.php on line 1059

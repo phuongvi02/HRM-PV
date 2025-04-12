@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    color: #333;
+    line-height: 1.6;
+    background-color: #fff5f7;
+}
+
+.container-fluid {
+    padding: 20px;
+    max-width: 100%;
+}
+
+.card {
+    border: 1px solid #ffccd5;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(255, 105, 135, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #ff85a1;
+    color: #fff;
+    padding: 15px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-header h5 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #fff;
+}
+
+form.row.g-3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #ff6384;
+    margin-bottom: 5px;
+}
+
+.form-select,
+.form-control {
+    border: 1px solid #ffccd5;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    transition: border-color 0.3s ease;
+}
+
+.form-select:focus,
+.form-control:focus {
+    border-color: #ff85a1;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 133, 161, 0.3);
+}
+
+.btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #ff85a1;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #ff6384;
+}
+
+.btn-success {
+    background-color: #ff99ac;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #ff7a96;
+}
+
+.btn-info {
+    background-color: #ffb3c1;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #ff99ac;
+}
+
+.btn-danger {
+    background-color: #ff4d6d;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #ff2e51;
+}
+
+.report-header {
+    margin-bottom: 30px;
+    padding: 20px 0;
+    border-bottom: 2px solid #ff85a1;
+}
+
+.report-header .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.report-header .col-6 p {
+    margin: 5px 0;
+    font-size: 12pt;
+}
+
+.report-header .col-6.text-left p:first-child {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ff6384;
+}
+
+.report-header .col-6.text-left p:nth-child(2) {
+    font-weight: 600;
+    text-align: center;
+}
+
+.report-header .col-6.text-right p {
+    font-size: 12pt;
+    color: #ff99ac;
+}
+
+.report-title {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ff6384;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.report-subtitle {
+    font-size: 16px;
+    color: #ff99ac;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.report-content {
+    margin-bottom: 30px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th,
+.table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ffccd5;
+}
+
+.table th {
+    background-color: #ff85a1 !important;
+    color: #fff !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 11pt;
+}
+
+.table td {
+    background-color: #fff5f7;
+}
+
+.table tr:nth-child(even) td {
+    background-color: #fff;
+}
+
+.table tr:hover td {
+    background-color: #ffe6ea;
+}
+
+.badge {
+    padding: 5px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.bg-success {
+    background-color: #ff99ac;
+    color: #fff;
+}
+
+.bg-danger {
+    background-color: #ff4d6d;
+    color: #fff;
+}
+
+.bg-warning {
+    background-color: #ffb3c1;
+    color: #333;
+}
+
+.table-info {
+    background-color: #ff85a1 !important;
+    color: #fff;
+    font-weight: 600;
+}
+
+.report-footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 2px solid #ff85a1;
+    text-align: center;
+}
+
+.report-footer .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.report-footer .col-6 p {
+    margin: 10px 0;
+}
+
+.report-footer .col-6 p:first-child {
+    font-weight: 600;
+    color: #ff6384;
+}
+
+.report-footer .col-6 p:last-child {
+    font-style: italic;
+    color: #ff99ac;
+}
+
+.date-field {
+    display: none;
+}
+
+@media print {
+    body {
+        background-color: #fff;
+        color: #000;
+        font-size: 11pt;
+    }
+
+    .container-fluid {
+        padding: 0;
+    }
+
+    .card {
+        border: none;
+        box-shadow: none;
+    }
+
+    .card-header,
+    .card-body form,
+    .btn {
+        display: none !important;
+    }
+
+    .report-header {
+        border-bottom: 2px solid #000;
+    }
+
+    .report-header .col-6 p,
+    .report-header .col-6.text-right p {
+        font-size: 11pt;
+        color: #000;
+    }
+
+    .report-title {
+        font-size: 24px;
+        color: #000;
+    }
+
+    .report-subtitle {
+        font-size: 14px;
+        color: #000;
+    }
+
+    .table th {
+        background-color: #ff85a1 !important;
+        color: #fff !important;
+    }
+
+    .table td {
+        border: 1px solid #000;
+        background-color: #fff !important;
+    }
+
+    .table tr:hover td {
+        background-color: #fff !important;
+    }
+
+    .table-info {
+        background-color: #ff85a1 !important;
+    }
+
+    .report-footer {
+        border-top: 2px solid #000;
+    }
+
+    .report-content {
+        page-break-inside: auto;
+    }
+
+    .table tr {
+        page-break-inside: avoid;
+        page-break-after: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-fluid {
+        padding: 10px;
+    }
+
+    .form-label {
+        font-size: 14px;
+    }
+
+    .form-select,
+    .form-control {
+        font-size: 12px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+    .table th,
+    .table td {
+        font-size: 11px;
+        padding: 8px;
+    }
+
+    .report-title {
+        font-size: 22px;
+    }
+
+    .report-subtitle {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .col-md-3 {
+        width: 100%;
+    }
+
+    .table th,
+    .table td {
+        font-size: 10px;
+        padding: 6px;
+    }
+
+    .report-header .col-6 {
+        width: 100%;
+        text-align: center !important;
+    }
+
+    .report-footer .col-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "require": {
+        "google/cloud-storage": "^1.46",
+        "guzzlehttp/guzzle": "^7.9",
+        "google/apiclient": "*",
+        "tecnickcom/tcpdf": "^6.8",
+        "phpmailer/phpmailer": "^6.9",
+        "phpoffice/phpspreadsheet": "1.28",
+        "dompdf/dompdf": "*"
+    }
+}

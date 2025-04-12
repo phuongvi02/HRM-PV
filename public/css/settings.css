@@ -1,0 +1,165 @@
+/* Định dạng chung cho container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Định dạng tiêu đề */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Định dạng nút Quay lại */
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+/* Định dạng thông báo */
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+.alert-info {
+    background-color: #cce5ff;
+    color: #004085;
+    border: 1px solid #b8daff;
+}
+
+/* Định dạng bảng */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #333;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+/* Định dạng input trong bảng */
+.form-control {
+    padding: 6px 12px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 150px; /* Giới hạn chiều rộng input */
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Định dạng nút trong bảng */
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 0.875rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Đảm bảo các input và nút trong form inline hiển thị đẹp */
+td form {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Khoảng cách giữa input và nút */
+}
+
+td form input[type="number"] {
+    width: 100px; /* Giới hạn chiều rộng cho input số */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .table th, .table td {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .form-control {
+        max-width: 100px;
+    }
+
+    .btn-sm {
+        padding: 4px 8px;
+        font-size: 0.75rem;
+    }
+
+    td form {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

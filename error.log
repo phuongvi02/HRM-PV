@@ -1,0 +1,72 @@
+[15-Mar-2025 15:38:03 Europe/Berlin] Checking cookies: Array
+(
+    [Studio-d39da264] => 2b401387-c329-4e0f-b22e-2223fa718013
+    [__stripe_mid] => 848a7911-524f-4172-b903-ef51541f79c35dd68f
+    [active_user] => user_22
+    [session_user_] => d3dg2trmpmr09o8n2a66vihqp2
+    [session_user_22] => qn6em7sdoghltonui2ukiiuupb
+    [default_session] => s2b478qvfm4ftakuqcjojv0pjj
+    [user_session_12] => session_user_12
+    [session_token_user_12] => session_user_12
+    [PHPSESSID] => session_user_12
+    [hrm_csrf_session] => a767usv5plonumrovcegk9rtd2
+    [hrm_HR] => 4b3e49dldq1ck4fm1b7820bho7
+    [hrm_Payroll] => vafuv1mcc37uubvlgaqo9ev6eb
+    [hrm_temp] => lfgj5nrdumigkdo0gnkig975s6
+    [hrm_session_name] => hrm_user_22
+    [hrm_user_name] => ls3n8rrv20o3pklhoapfv3tl1o
+    [hrm_session_22] => hrm_user_22
+    [hrm_session_23] => hrm_user_23
+    [hrm_user_23] => ls3n8rrv20o3pklhoapfv3tl1o
+    [hrm_user_22] => 7ripr1shj8mo4m04576h9jl7td
+)
+
+[15-Mar-2025 15:38:03 Europe/Berlin] Checking session for user_id: name, session name: hrm_user_name, Session data: Array
+(
+)
+
+[15-Mar-2025 15:38:03 Europe/Berlin] Checking session for user_id: 22, session name: hrm_user_22, Session data: Array
+(
+)
+
+[15-Mar-2025 15:38:03 Europe/Berlin] Checking session for user_id: 23, session name: hrm_user_23, Session data: Array
+(
+)
+
+[15-Mar-2025 15:38:03 Europe/Berlin] No valid session found for HR, redirecting to login.php
+[15-Mar-2025 15:48:15 Europe/Berlin] Checking cookies: Array
+(
+    [Studio-d39da264] => 2b401387-c329-4e0f-b22e-2223fa718013
+    [__stripe_mid] => 848a7911-524f-4172-b903-ef51541f79c35dd68f
+    [active_user] => user_22
+    [session_user_] => d3dg2trmpmr09o8n2a66vihqp2
+    [session_user_22] => qn6em7sdoghltonui2ukiiuupb
+    [default_session] => s2b478qvfm4ftakuqcjojv0pjj
+    [user_session_12] => session_user_12
+    [session_token_user_12] => session_user_12
+    [PHPSESSID] => session_user_12
+    [hrm_csrf_session] => a767usv5plonumrovcegk9rtd2
+    [hrm_HR] => 4b3e49dldq1ck4fm1b7820bho7
+    [hrm_Payroll] => vafuv1mcc37uubvlgaqo9ev6eb
+    [hrm_temp] => lfgj5nrdumigkdo0gnkig975s6
+    [hrm_session_name] => hrm_user_22
+    [hrm_user_name] => ls3n8rrv20o3pklhoapfv3tl1o
+    [hrm_session_22] => hrm_user_22
+    [hrm_session_23] => hrm_user_23
+    [hrm_user_22] => ls3n8rrv20o3pklhoapfv3tl1o
+    [hrm_user_23] => gl3ge07qiggjnk5qusfobcgofv
+)
+
+[15-Mar-2025 15:48:15 Europe/Berlin] Checking session for user_id: name, session name: hrm_user_name, Session data: Array
+(
+)
+
+[15-Mar-2025 15:48:15 Europe/Berlin] Checking session for user_id: 22, session name: hrm_user_22, Session data: Array
+(
+)
+
+[15-Mar-2025 15:48:15 Europe/Berlin] Checking session for user_id: 23, session name: hrm_user_23, Session data: Array
+(
+)
+
+[15-Mar-2025 15:48:15 Europe/Berlin] No valid session found for HR, redirecting to login.php
